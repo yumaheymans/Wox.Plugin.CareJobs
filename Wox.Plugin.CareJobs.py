@@ -2,7 +2,7 @@
 #   "Id": "8488b592-7a9f-40d9-b7d4-5cb4cd998c37",
 #   "Name": "CareJobs.Now",
 #   "Author": "CareJobs.Now",
-#   "Version": "1.0.0",
+#   "Version": "1.0.1",
 #   "MinWoxVersion": "2.4.2",
 #   "Runtime": "python",
 #   "Description": "Search US healthcare jobs with the pay employers post (nurses, CNAs, techs, therapists)",
@@ -48,7 +48,7 @@ import urllib.request
 
 SITE_URL = "https://carejobs.now"
 API_URL = SITE_URL + "/api/mcp"
-TIMEOUT_SECONDS = 8
+TIMEOUT_SECONDS = 25
 MAX_JOBS = 10
 MAX_QUERY_CHARS = 200
 MAX_BODY_BYTES = 2000000
